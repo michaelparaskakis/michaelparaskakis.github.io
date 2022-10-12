@@ -13228,7 +13228,7 @@
                 loadSprite: !0,
                 iconPrefix: "plyr",
                 iconUrl: "https://cdn.plyr.io/3.6.4/plyr.svg",
-                blankVideo: "https://cdn.plyr.io/static/blank.mp4",
+                blankVideo: "",
                 quality: { default: 576, options: [4320, 2880, 2160, 1440, 1080, 720, 576, 480, 360, 240], forced: !1, onChange: null },
                 loop: { active: !1 },
                 speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 4] },
@@ -16131,7 +16131,7 @@
         (aI = "plyr.io"),
             window.location.host === aI &&
                 Cd({
-                    dsn: "https://d4ad9866ad834437a4754e23937071e4@sentry.io/305555",
+                    dsn: "",
                     whitelistUrls: [aI].map(function (e) {
                         return new RegExp("https://(([a-z0-9])+(.))*".concat(e));
                     }),
@@ -16140,13 +16140,13 @@
                 Ng.setup(".js-shr", { count: { className: "button__count" }, wrapper: { className: "button--with-count" } });
                 var e = new oI("#player", {
                     debug: !0,
-                    title: "View From A Blue Moon",
+                    title: "Teambuilder Overview",
                     iconUrl: "https://cdn.plyr.io/3.6.4/demo.svg",
                     keyboard: { global: !0 },
                     tooltips: { controls: !0 },
                     captions: { active: !0 },
                     ads: { enabled: window.location.host.includes(aI), publisherId: "918848828995742" },
-                    previewThumbnails: { enabled: !0, src: ["https://cdn.plyr.io/static/demo/thumbs/100p.vtt", "https://cdn.plyr.io/static/demo/thumbs/240p.vtt"] },
+                    previewThumbnails: { enabled: !0, src: ["", ""] },
                     vimeo: { referrerPolicy: "no-referrer" },
                 });
                 window.player = e;
